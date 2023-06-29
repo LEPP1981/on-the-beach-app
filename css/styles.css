@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section#mainBg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-sizing: border-box;
+    background-image: url("../img/pexels-thorsten-technoman-338504.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form#searchForm {
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+
+select#destination,
+input#departureDate,
+input#nights {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    margin-right: 29px;
+}
+
+input#nights {
+    max-width: 60px;
+}
+
+#results {
+    display: none;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+}
