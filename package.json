@@ -1,0 +1,19 @@
+{
+    "name": "on-the-beach-app",
+    "version": "1.0.0",
+    "description": "on the beach test",
+    "main": "index.html",
+    "scripts": {
+        "test": "test",
+        "start": "http-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "on-the-beach-app"
+    },
+    "author": "Luis Paz",
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^14.1.1"
+    }
+}
