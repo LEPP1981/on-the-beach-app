@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holiday Search</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="mainBg">
+        <div id="formContainer">
+            <h1>Holiday Search</h1>
+            <form id="searchForm">
+                <label for="destination">Destination:</label>
+                <select id="destination" required>
+            <option disabled>Select your destination</option>
+            <option value="PMI">Palma de Mallorca (PMI)</option>
+            <option value="AGP">Malaga (AGP)</option>
+            <option value="TFS">Tenerife Sur (TFS)</option>
+            <option value="LPA">Gran Canaria (LPA)</option>
+        </select>
+                <label for="departureDate">Departure Date:</label>
+                <input type="date" id="departureDate" required><br><br>
+                <label for="nights">Number of Nights:</label>
+                <input type="number" id="nights" min="1" required><br><br>
+                <button type="submit">Search</button>
+            </form>
+
+            <div id="results">
+            </div>
+
+            <script src="js/search.js"></script>
+        </div>
+    </section>
+</body>
+
+</html>
