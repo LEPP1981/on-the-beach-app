@@ -18,24 +18,24 @@ This repo contains all necessary files to preview my Technical test for On The B
 
 In order to try the results within the frontend search form, please use the following test cases with proven positive results:
 
-Destination: Palma de Mallorca (PMI)
-Departure Date: 15 of June 2023
-Nights: 7
+Destination: Palma de Mallorca (PMI)  
+Departure Date: 15 of June 2023  
+Nights: 7  
+  
+Destination: Malaga (AGP)  
+Departure Date: 1 of July 2023  
+Nights: 14  
 
-Destination: Malaga (AGP)
-Departure Date: 1 of July 2023
-Nights: 14
+Destination: Gran Canaria (LPA)  
+Departure Date: 10 of November 2022  
+Nights: 14  
 
-Destination: Gran Canaria (LPA)
-Departure Date: 10 of November 2022
-Nights: 14
+To test some negative results, please try  
 
-To test some negative results, please try
+Destination: Palma de Mallorca (PMI)  
+Departure Date: 5 of November 2023  
+Nights: 10  
 
-Destination: Palma de Mallorca (PMI)
-Departure Date: 5 of November 2023
-Nights: 10
-
-Destination: Tenerife Sur (TFS)
-Departure Date: 23 of November 2023
-Nights: 7
+Destination: Tenerife Sur (TFS)  
+Departure Date: 23 of November 2023  
+Nights: 7  
